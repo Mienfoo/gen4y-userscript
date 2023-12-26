@@ -6,10 +6,12 @@
 // @author       E.B
 // @match        https://app.ringcentral.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
-// @grant        none
-// @require      http://192.168.0.234:5500/userscript.js
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @require      https://raw.githubusercontent.com/Mienfoo/gen4y-userscript/main/userscript.js
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @require      http://userscripts-mirror.org/scripts/source/107941.user.js 
 
 // ==/UserScript==
 
-var identifier = "1234567890";
+var identifier = "Gen4U";
