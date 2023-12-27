@@ -79,10 +79,16 @@ function addSignatureToEditor() {
     label.innerHTML = "Enter Your Name: ";
     label.style = "margin-right: 10px; margin-left: 10px; margin-top: 10px;"
 
+    var infoa = document.createElement("a");
+    infoa.href = "https://p-internal.genesis4you.com/ring-central-extension-info";
+    infoa.style = "margin-top: 0px;margin-bottom: 0px;padding-top: 10px;padding-left: 10px;";
+    infoa.innerHTML = "What is this?";
+
     var section = XPathGet('//*[@id="inboxTab__rightPanel"]/div/div[1]/section/div/div/div[1]')
     section.appendChild(label);
     section.appendChild(input);
     section.appendChild(enabled_switch);
+    section.appendChild(infoa);
 
     var editor = editorSection.getElementsByClassName("ql-editor")[0];
     editor.setAttribute("data-placeholder", "");
