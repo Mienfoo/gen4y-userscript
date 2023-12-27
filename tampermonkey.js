@@ -8,7 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @require      https://raw.githubusercontent.com/Mienfoo/gen4y-userscript/main/userscript.js
+// @require      https://raw.githubusercontent.com/Mienfoo/gen4y-userscript/main/userscript.js?version=1.0&timestamp=${new Date().getTime()}
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // @require      http://userscripts-mirror.org/scripts/source/107941.user.js 
 
